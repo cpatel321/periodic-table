@@ -1,0 +1,123 @@
+*{
+    margin: 3px;
+    padding: 0;
+    box-sizing: border-box;
+ }
+html{
+    --bg:#e6e6e6;
+    --text:  #333333;
+    --panel-bg:#FFFFFF;
+    --home :#EE9521;
+}
+    html[data-theme='dark'] {
+--bg: #333333;
+    --text: #B5B5B5 ;
+    --panel-bg:#111111;
+    --home :#80B9FF ;
+}
+
+body{
+    background: var(--bg);
+    text-align: center;
+    text-size:7vw;
+    }
+.sources a{
+text-decoration:none;
+text-color:#00FF5B;
+}
+
+@-ms-viewport{
+    zoom: 1.0;
+    width:extend-to-zoom;
+    
+}
+@-o-viewport{
+    zoom: 1.0;
+    width:extend-to-zoom;
+    
+}
+@viewport{
+    zoom: 1.0;
+    width:extend-to-zoom;
+    
+}
+@ms-viewport{
+    
+    zoom: 1.0;
+    width:extend-to-zoom;
+    
+}
+.sources{
+    background: var(--panel-bg);
+    margin: 1% 1% 1% 1%;
+    padding: 11px 11px 11px 11px;
+    color:var(--text);
+    border-radius: 10px;
+    font-size:5vw;
+    font-style: italic;
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.8);
+   text-shadow:5px 5px 15px rgba(0,0,0,0.5);
+	margin-bottom:10px;
+}
+    
+.eleminfo{
+    background: var(--panel-bg);
+    margin: 1% 1% 1% 1%;
+    padding: 11px 11px 11px 11px;
+    border-radius: 10px;
+    font-size:5vw;
+    color:var(--text);
+	box-shadow: 2px 5px 10px rgba(0,0,0,0.8);
+	text-shadow:5px 5px 15px rgba(0,0,0,0.5);
+	margin-bottom:10px;
+}
+.images{
+    background: var(--panel-bg);
+    margin: 1% 1% 1% 1%;
+    padding: 11px 11px 11px 11px;
+    border-radius: 10px;
+    font-size:5vw;
+    color:var(--text);
+	box-shadow: 2px 5px 10px rgba(0,0,0,0.8);
+	text-shadow:5px 5px 15px rgba(0,0,0,0.5);
+    margin-bottom:10px
+    }
+.home{
+    position:fixed;
+    top:80%;
+    left: 70%;
+    font-size: 8vw;
+    background: var(--home);
+    padding: 20px 20px 20px 20px;
+    border: orange 5px solid;
+    
+    
+}
+.home a{
+    text-decoration: none;
+    color:#00FFF3;
+  text-shadow:5px 5px 15px rgba(0,0,0,0.5);
+    }
+.home:hover{
+   
+    background-color: blanchedalmond;
+    }
+.social{
+margin-top : 10%;
+background: var(--panel-bg);
+box-shadow: 2px 5px 10px rgba(0,0,0,0.8)
+border: 2px orange inset;
+}
+.social h2{
+padding: 10px;
+font-style:italic;
+text-shadow:5px 5px 15px rgba(0,0,0,0.5);
+color:var(--text);
+}
+.social img{ 
+max-width: 16%;
+padding: 0px;
+margin:0px;
+box-shadow:5px 5px 15px rgba(0,0,0,0.5);
+
+}

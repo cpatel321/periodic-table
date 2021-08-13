@@ -1,0 +1,35 @@
+  <!DOCTYPE html>
+<html>
+    <head>
+        <title>My Blog</title>
+<link href="css/form.css" rel="stylesheet">
+      <body onload="setTheme()"> <div class="section">
+            <h1><span>Contact Me</span></h1>
+            
+            <svg class="face" height="100" width="100">
+                <circle cx="50" cy="50" r="50" fill="#FDD835"/>
+                <circle cx="30" cy="30" r="10" fill="#e6e6e6"/>
+                <circle cx="70" cy="30" r="10" fill="#e6e6e6"/>
+                <circle cx="30" cy="30" r="5" fill="#000000"/>
+                <circle cx="70" cy="30" r="5" fill="#000000"/>
+                <path d="M 30 70 q 20 20 40 0" stroke="#e6e6e6" stroke-width="5" fill="none" />
+            </svg>
+                 
+            <form method="post">
+                <input name="name" placeholder="Name" type="text" required /><br/>
+                <input name="email" placeholder="Email" type="email" required /><br/>
+                <textarea name="message" placeholder="Message" required ></textarea>
+                <input type="submit" value="SEND" class="submit" name="submit" />
+            </form>
+        </div>
+  <div class="home" >
+    <a href="index.html">Home</a>
+  </div>
+</body>
+<script>
+var currentTheme= localStorage.getItem('theme');
+
+function setTheme() { document.documentElement.setAttribute('data-theme', currentTheme);
+}
+</script>
+</html>

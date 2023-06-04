@@ -1,0 +1,2385 @@
+<!DOCTYPE HTML >
+<html>
+<head>
+    <title>Periodic Table </title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/index.css" />
+    <meta name="viewport" content="width-device-width" initial-scale="1">
+</head>
+<body onload="setTheme()">
+
+<div id="header" >
+         Periodic table <span onclick="openNav()">&#9776;</span>
+    </div>
+<div id="table1"> 
+<!--table begins here-->
+<table align="center" >
+    <tr>
+        <td    class="nonmetals">   <a href="#H">  H   </td>
+        <td colspan="16"  class="emptySpace">        </td>
+        <td     class="noblegases">  <a href="#He">   He    </td>
+ 
+    </tr>
+    <tr>
+        <td class="alkalimetals">   <a href="#Li">  Li    </td>
+        <td class=" alkaliearhmetals "">   <a href="#Be">    Be  </td>
+      
+        <td colspan="10"  class="  emptySpace"></td>
+        <td     class=" metalloids"  >    <a href="#B">    B </td>
+        <td class="nonmetals"">    <a href="#C">   C  </td>
+        <td class="nonmetals"" >     <a href="#N"> N   </td>
+        <td  class="nonmetals"" >   <a href="#O">  O    </td>
+        <td  class="  halogens"">    <a href="#F">  F   </td>
+        <td class="noblegases"">     <a href="#Ne"> Ne   </td>
+ 
+    </tr>
+    <tr>
+        <td class="alkalimetals"">    <a href="#Na">  Na   </td>
+        <td class=" alkaliearhmetals ">     <a href="#Mg"> Mg   </td>
+        
+        <td colspan = "10" class=" emptySpace " ></td>
+        <td   class="posttransistionmetal">    <a href="#Al">   Al  </td>
+        <td class=" metalloids" >     <a href="#Si">    Si</td>
+        <td  class="nonmetals">  <a href="#P">P       </td>
+        <td  class="nonmetals"" >   <a href="#S">S      </td>
+        <td   class="  halogens">   <a href="#Cl"> Cl     </td>
+        <td class="noblegases"">    <a href="#Ar">  Ar   </td>
+ 
+    </tr>
+    <tr>
+        <td class="alkalimetals">  <a href="#K"> K      </td>
+        <td class=" alkaliearhmetals "">  <a href="#Ca">  Ca     </td>
+        <td class="transitionmetals">   <a href="#Sc">   Sc   </td>
+        <td class="transitionmetals"" >     <a href="#Ti">   Ti </td>
+        <td class="transitionmetals"" >  <a href="#V">V       </td>
+        <td class="transitionmetals""> <a href="#Cr">Cr        </td>
+        <td class="transitionmetals"">   <a href="#Mn">Mn      </td>
+        <td class="transitionmetals"">   <a href="#Fe">  Fe    </td>
+        <td class="transitionmetals"">    <a href="#Co">   Co  </td>
+        <td class="transitionmetals"" >   <a href="#Ni">Ni      </td>
+        <td class="transitionmetals"">   <a href="#Cu">Cu      </td>
+        <td class="transitionmetals"">    <a href="#Zn"> Zn    </td>
+        <td class="posttransistionmetal">   <a href="#Ga"> Ga       </td>
+        <td  class=" metalloids"  >    <a href="#Ge"> Ge    </td>
+        <td class=" metalloids"  >    <a href="#As">   As   </td>
+        <td  class="nonmetals" >      <a href="#Se">    Se </td>
+        <td   class="  halogens" >   <a href="#Br">   Br     </td>
+        <td class="noblegases">    <a href="#Kr">  Kr     </td>
+ 
+    </tr>
+    <tr>
+        <td class="alkalimetals"">     <a href="#Rb">    Rb</td>
+        <td class=" alkaliearhmetals "> <a href="#Sr">   Sr     </td>
+        <td class="transitionmetals">   <a href="#Y">   Y     </td>
+        <td class="transitionmetals">   <a href="#Zr">    Zr    </td>
+        <td class="transitionmetals">    <a href="#Nb">     Nb </td>
+        <td class="transitionmetals">   <a href="#Mo">    Mo    </td>
+        <td class="transitionmetals">   <a href="#Tc">    Tc    </td>
+        <td class="transitionmetals">    <a href="#Ru">    Ru   </td>
+        <td class="transitionmetals">    <a href="#Rh">   Rh    </td>
+        <td  class="transitionmetals">     <a href="#Pd">   Pd  </td>
+        <td class="transitionmetals">     <a href="#Ag">   Ag   </td>
+        <td class="transitionmetals">     <a href="#Cd">  Cd    </td>
+        <td class="posttransistionmetal">     <a href="#In">    In  </td>
+        <td class="posttransistionmetal"">     <a href="#Sn">   Sn   </td>
+        <td  class=" metalloids"  >    <a href="#Sb">    Sb   </td>
+        <td   class=" metalloids" >    <a href="#Te">   Te    </td>
+        <td    class="  halogens"">     <a href="#I">   I   </td>
+        <td class="noblegases"">     <a href="#Xe">   Xe   </td>
+ 
+    </tr>
+    <tr>
+        <td class="alkalimetals">    <a href="#Cs">   Cs    </td>
+        <td class=" alkaliearhmetals "">   <a href="#Ba">   Ba    </td>
+        <td   class=" emptySpace "" >  *      </td>
+        <td class="transitionmetals"">    <a href="#Hf">   Hf    </td>
+        <td  class="transitionmetals"">    <a href="#Ta">    Ta   </td>
+        <td  class="transitionmetals"">    <a href="#W">  W     </td>
+        <td   class="transitionmetals"">     <a href="#Re">   Re   </td>
+        <td  class="transitionmetals"" >     <a href="#Os">  Os    </td>
+        <td  class="transitionmetals"">     <a href="#Ir">   Ir   </td>
+        <td  class="transitionmetals"">     <a href="#Pt">     Pt </td>
+        <td  class="transitionmetals"">     <a href="#Au">    Au  </td>
+        <td  class="transitionmetals"">     <a href="#Hg">    Hg  </td>
+        <td class="posttransistionmetal">      <a href="#Tl">   Tl  </td>
+        <td class="posttransistionmetal"">    <a href="#Pb">   Pb    </td>
+        <td class="posttransistionmetal"">    <a href="#Bi">  Bi     </td>
+        <td class=" metalloids"   >    <a href="#Po">  Po     </td>
+        <td   class="  halogens"">     <a href="#At">   At   </td>
+        <td class="noblegases"">     <a href="#Rn">    Rn  </td>
+ 
+    </tr>
+    <tr>
+        <td class="alkalimetals"">    <a href="#Fr"> Fr      </td>
+        <td class=" alkaliearhmetals ">    <a href="#Ra">   Ra    </td>
+        <td  class=" emptySpace "" >   **     </td>
+        <td  class="transitionmetals"">     <a href="#Rf">  Rf    </td>
+        <td  class="transitionmetals"">     <a href="#Db">  Db    </td>
+        <td  class="transitionmetals"">    <a href="#Sg">   Sg    </td>
+        <td  class="transitionmetals"">   <a href="#Bh">   Bh     </td>
+        <td   class="transitionmetals"">     <a href="#Hs">  Hs    </td>
+        <td  class="transitionmetals"" >    <a href="#Mt">   Mt    </td>
+        <td  class="transitionmetals"" >      <a href="#Ds">  Ds   </td>
+        <td   class="transitionmetals"" >      <a href="#Rg">   Rg </td>
+        <td   class="transitionmetals""  >     <a href="#Cn">  Cn  </td>
+        <td class="posttransistionmetal"">    <a href="#Nh">    Nh   </td>
+        <td class="posttransistionmetal"">      <a href="#Fl">   Fl  </td>
+        <td class="posttransistionmetal"">     <a href="#Mc">   Mc  </td>
+        <td class="posttransistionmetal"">     <a href="#Lv">   Lv </td>
+        <td  class="  halogens"" >     <a href="#Ts">  Ts      </td>
+        <td  class="noblegases"" >    <a href="#Og">  Og     </td>
+ 
+    </tr>
+    <tr>
+         <td class=" emptySpace ">        </td>
+        <td class=" emptySpace " >     *   </td>
+        <td class="lanthanides">    <a href="#La">   La    </td>
+        <td class="lanthanides"">     <a href="#Ce">   Ce   </td>
+        <td class="lanthanides"">     <a href="#Pr">  Pr    </td>
+        <td class="lanthanides"">     <a href="#Nd">    Nd  </td>
+        <td  class="lanthanides"" >    <a href="#Pm">    Pm   </td>
+        <td  class="lanthanides"" >      <a href="#Sm">   Sm  </td>
+        <td  class="lanthanides"" >    <a href="#Eu">  Eu     </td>
+        <td   class="lanthanides"">    <a href="#Gd">   Gd    </td>
+        <td    class="lanthanides"">      <a href="#Tb">   Tb  </td>
+        <td   class="lanthanides""  >     <a href="#Dy">   Dy  </td>
+        <td   class="lanthanides"" >      <a href="#Ho">   Ho  </td>
+        <td  class="lanthanides""  >      <a href="#Er">  Er   </td>
+        <td     class="lanthanides"">    <a href="#Tm">    Tm   </td>
+        <td  class="lanthanides""  >     <a href="#Yb">   Yb   </td>
+        <td  class="lanthanides"" >     <a href="#Lu">   Lu   </td>
+        
+        <td class=" emptySpace "">        </td>
+       
+ 
+    </tr>
+    <tr>
+        <td class=" emptySpace " >    </td>
+        <td class=" emptySpace "    >     **   </td>
+        <td class="actinides" >    <a href="#Ac">   Ac    </td>
+        <td class="actinides""  >   <a href="#Th">  Th      </td>
+        <td class="actinides""  >   <a href="#Pa">    Pa    </td>
+        <td   class="actinides"">    <a href="#U">    U   </td>
+        <td class="actinides"">     <a href="#Np">   Np   </td>
+        <td class="actinides"" >    <a href="#Pu">    Pu   </td>
+        <td class="actinides"" >    <a href="#Am">    Am   </td>
+        <td   class="actinides"">    <a href="#Cm">    Cm   </td>
+        <td  class="actinides"" >    <a href="#Bk">    Bk   </td>
+        <td class="actinides" >     <a href="#Cf">  Cf    </td>
+        <td   class="actinides"">    <a href="#Es">    Es   </td>
+        <td  class="actinides">     <a href="#Fm">   Fm   </td>
+        <td  class="actinides ">     <a href="#Md">   Md   </td>
+        <td class="actinides ">     <a href="#No">   No   </td>
+        <td  class="actinides  ">    <a href="#Lr">     Lr  </td>
+        <td   class=" emptySpace ">     </td>
+ 
+    </tr>
+    </table>
+    </div>
+<!--table closed-->
+ <!--   <div id="footer">
+<span> &copy; created by chandrabhan</span>
+</div> -->
+<!-- hints-->
+    <div id="groupdetails">
+<table> 
+<tr>
+<td class="nonmetals">non metals</td>
+<td class="alkalimetals">alkali metals</td>
+<td class="alkaliearhmetals">alkali earth metals</td>
+<td class="halogens">halogens</td>
+<td class="noblegases">noble gases</td>
+
+</tr>
+<tr>
+<td class="metalloids">metalloids</td>
+<td class="transitionmetals">transition metals</td>
+<td class="posttransistionmetal">post transistion metal</td>
+<td class="lanthanides">lanthanides</td>
+<td class="actinides">actinides </td>
+</tr>
+</table>
+</div>
+<!-- hints over -->
+<!--individual details here-->
+<div id="details">
+    <div class="popup" id="H">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      
+<img class="elemimg" src="images/elements/element_1.jpg">
+       <h3>1. Hydrogen</h3> <hr/>
+       <p>Symbol:  H
+<br/>
+Atomic Weight:  1.008
+<br/>
+Description:  Hydrogen is an explosive gas and also the lightest element.
+<br/>
+Where It's Used:  Hydrogen makes up about 90% of atoms in the entire universe. The chemical is used heavily as both a gas and liquid fuel. Hydrogen was used as a main fuel for the space shuttle program by NASA as well as currently being used heavily by the petroleum and manufacturing industries.
+  </p> 
+    </div>
+    </div>
+    
+    <div class="popup" id="He">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_2.jpg">
+       <h3>2. Helium</h3> <hr/>
+       <p>
+
+Symbol:  He
+<br/>
+Atomic Weight:  4.002602(2)
+<br/>
+Description:  Helium is an inert gas and the second-lightest element.
+<br/>
+Where It's Used:  Helium gas is commonly known to be lighter than air, which leads to its use in weather and party balloons. It is also used as an inert shield for arc welding and to pressurize liquid fuel tanks in rockets. Due to its wide recreational usage, natural sources of Helium are at risk for being completely depleted in the next decade, sparking fears for the scientific community.
+  </p> 
+    </div>
+    </div>
+    
+    <div class="popup" id="Li">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_3.jpg">
+       <h3>3. Lithium</h3> <hr/>
+       <p>
+Symbol:  Li
+<br/>
+Atomic Weight:  6.94
+<br/>
+Description:  Lithium is the lightest metal and is soft and reactive.
+<br/>
+Where It's Used:  Lithium is known most commonly to be used in batteries. It is also used in aluminum alloys, to make cookware more durable, and most surprisingly, as a mood stabilizer for bipolar disorder.
+
+  </p> 
+    </div>
+    </div>
+    
+    <div class="popup" id="Be">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_4.jpg">
+       <h3>4. Beryllium</h3> <hr/>
+       <p>
+Symbol:  Be
+<br/>
+Atomic Weight:  9.012183(5)
+<br/>
+Description:  Beryllium is a lightweight metal.
+<br/>
+Where It's Used:  This element is most commonly used as an alloying agent for copper. When combined, the resultant metal, beryllium copper, is used for springs and a variety of electrical applications. Due to its lightweight metal properties, it is used structurally in the aerospace industries.
+  </p> 
+    </div>
+    </div>
+    
+    <div class="popup" id="B">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_5.jpg">
+       <h3>5. Boron</h3> <hr/>
+       <p>
+Symbol:  B
+<br/>
+Atomic Weight:  10.81
+<br/>
+Description:  Boron is a hard black solid.
+<br/>
+Where It's Used:  Boron is used in pyrotechnics. When burned, it gives off a green color in the flame. More common uses are in boric acid and borax. You can find boron in antiseptics, washing chemicals, ceramic glazes, and eye drops.
+  </p> 
+    </div>
+    </div>
+    
+    <div class="popup" id="C">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_6.jpg">
+       <h3>6. Carbon</h3> <hr/>
+       <p>
+Symbol:  C
+<br/>
+Atomic Weight:  12.011
+<br/>
+Description:  Carbon can form different lattices like hard diamond or soft graphite.
+<br/>
+Where It's Used:  Carbon is the basis for the world's natural organic fuels such as natural gas, coal, and oil. Graphite, a strong molecular form of carbon is used for pencils, crucibles, and electrodes. Pure diamond is also entirely made out of carbon atoms. Another common application of the element is carbon nanotubes. Throughout all of its forms, Carbon's ability to form incredibly strong lattice elemental structures make it perfect for structural applications.
+
+
+  </p> 
+    </div>
+    </div>
+    
+    <div class="popup" id="N">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_7.jpg">
+       <h3>7. Nitrogen</h3> <hr/>
+       <p>
+Symbol:  N
+<br/>
+Atomic Weight:  14.007
+<br/>
+Description:  Nitrogen is a colorless gas.
+<br/>
+Where It's Used:  78 percent of Earth's entire atmosphere is made up of nitrogen. The element is significant to the chemical industry as it is a key nutrient in fertilizers and a key component in nitric acid, nylon, and explosive materials. The Haber process is a famous method of reacting nitrogen with hydrogen to create ammonia.
+  </p> 
+    </div>
+    </div>
+    
+    <div class="popup" id="O">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_8.jpg">
+       <h3>8. Oxygen</h3> <hr/>
+       <p>
+Symbol:  O
+<br/>
+Atomic Weight:  15.999
+<br/>
+Description:  Oxygen is a colorless gas.
+<br/>
+Where It's Used:  Oxygen is the most important element to human's survival. Pure oxygen is used to treat breathing problems and make spacecraft livable. Oxygen in industry is mainly used in the manufacturing of steel and other metal alloys.
+  </p> 
+    </div>
+    </div>
+    
+    <div class="popup" id="F">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_9.jpg">
+       <h3>9. Fluorine</h3> <hr/>
+       <p>
+Symbol:  F
+<br/>
+Atomic Weight:  18.998403163(6)
+<br/>
+Description:  Fluorine is a yellowish poison gas and the most reactive element.
+<br/>
+Where It's Used:  Fluorine is a common additive to drinking water and is used as a cleaning agent in toothpaste. In pop culture, hydrofluoric acid was used as a dissolving agent in the popular TV show "Breaking Bad." The chemical can dissolve glass and is used mainly as an etching compound.
+  </p> 
+    </div>
+    </div>
+    
+    <div class="popup" id="Ne">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_10.jpg     <h3>10. Neon</h3> <hr/>
+       <p>
+Symbol:  Ne
+<br/>
+Atomic Weight:  20.1797(6)
+<br/>
+Description:  Neon is an inert gas.
+<br/>
+Where It's Used:  Neon is the fourth most abundant element in the entire universe. By far the most prominent use of the element is used in advertising signs. When enticed with electricity, the glass commonly glows, leading to its use in the respective sign industry as well as high-voltage indicators and lasers.
+  </p> 
+    </div>
+    </div>
+    
+    <div class="popup" id="Na">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_11.jpg">
+       <h3>11. Sodium</h3> <hr/>
+       <p>Latin-Natrium
+Symbol:  Na 
+<br/>
+Atomic Weight:  22.98976928(2)
+<br/>
+Description:  Sodium is a very reactive soft metal.
+<br/>
+Where It's Used:  Sodium is used in streetlights to produce yellow light as well as being a component in many compounds like table salt, soda ash, borax, and baking soda.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Mg">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_12.jpg">
+       <h3>12. Magnesium</h3> <hr/>
+       <p>
+Symbol: Mg
+Atomic Weight:  24.305
+<br/>
+Description:  Magnesium is a lightweight metal.
+<br/>
+Where It's Used:  Magnesium finds many of its uses in medicine as Epsom salts, milk of magnesia, chloride, and citrate. Magnesium is also essential to both animal and plant life.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Al">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_13      <h3>13. Aluminium</h3> <hr/>
+       <p>
+Symbol: Al
+<br/>
+Atomic Weight:  26.9815385
+<br/>
+Description:  Aluminum is a lightweight non-corroding metal.
+<br/>
+Where It's Used:   Aluminum is a soft and malleable metal that has uses in cans and fouls, utensils, airplane and automotive parts, and other structural applications.
+
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Si">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_14.jpg">
+       <h3>14. Silicon</h3> <hr/>
+       <p>
+
+Symbol:  Si
+<br/>
+Atomic Weight:  28.085
+<br/>
+Description:  Silicon is a hard metalloid.
+<br/>
+Where It's Used:  Silicon is used extensively in the semiconductor industry in solid-state electronics. For such applications, the silicon has to be doped with boron, gallium, phosphorus or arsenic.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="P">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_15.jpg">
+       <h3>15. Phosphorus</h3> <hr/>
+       <p>
+
+Symbol:  P
+<br/>
+Atomic Weight:  30.973761998(5)
+<br/>
+Description:  Phosphorus is a glowing white waxy solid.
+<br/>
+Where It's Used:  Phosphorus is the main nutrient for organic life through phosphate compounds. It is used in fertilizers to uphold the biological phosphorus cycle. It is also used in explosive and pyrotechnics.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="S">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_16.jpg">
+       <h3>16. Sulfur</h3> <hr/>
+       <p>
+
+Symbol:  S
+<br/>
+Atomic Weight:  32.06
+<br/>
+Description:  Sulfur is a brittle yellow solid.
+<br/>
+Where It's Used:  Sulfur is used in gunpowder and other pyrotechnics, rubber manufacturing, and as an insecticide, fungicide, and fumigant. It can also be used to treat skin diseases, however, its prime use is in compound separation.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Cl">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_17.jpg">
+       <h3>17. Chlorine</h3> <hr/>
+       <p>
+
+Symbol:  Cl
+<br/>
+Atomic Weight:  35.45
+<br/>
+Description:  Chlorine is a greenish poison gas.
+<br/>
+Where It's Used:  Chlorine is used in water treatment and as an antiseptic. During the production of papers, plastics, solvents, and textiles, large amounts of chlorine are also used.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Ar">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_18.jpg">
+       <h3>18. Argon</h3> <hr/>
+       <p>
+
+Symbol:  Ar
+<br/>
+Atomic Weight:  39.948(1)
+<br/>
+Description:  Argon is an inert gas.
+<br/>
+Where It's Used:  Argon is used in incandescent and fluorescent bulbs as a protective layer around the filament to keep oxygen from corroding it. It is also used as a protective shield in arc welding and semiconductor crystals.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="K">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_19.jpg">
+       <h3>19. Potassium</h3> <hr/>
+       <p>
+
+Symbol:  K
+<br/>
+Atomic Weight:  39.0983
+<br/>
+Description:  Potassium is a soft metal and is reactive.
+<br/>
+Where It's Used:  Potassium is mainly used in compounds. It is combined with chlorine to produce potassium chloride which is used in fertilizers. Potassium hydroxide is also used in soaps and cleaners.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Ca">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_20.jpg">
+       <h3>20. Calcium</h3> <hr/>
+       <p>
+
+Symbol:  Ca
+<br/>
+Atomic Weight:  40.078(4)
+<br/>
+Description:  Calcium is a soft metal.
+<br/>
+Where It's Used:  Calcium is used to prepare thorium and uranium as a reducing agent. It is also used as an alloying agent in aluminum, copper, lead, and magnesium.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Sc">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_21.jpg">
+       <h3>21. Scandium</h3> <hr/>
+       <p>
+
+Symbol:  Sc
+<br/>
+Atomic Weight:  44.955908
+<br/>
+Description:  Scandium is a soft lightweight metal.
+<br/>
+Where It's Used:  Used heavily in mercury vapor lamps, Scandium is a key element in stadium lights. Its radioactive isotope is also used as a tracing agent.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Ti">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_22.jpg">
+       <h3>22. Titanium</h3> <hr/>
+       <p>
+
+Symbol:  Ti
+<br/>
+Atomic Weight:  47.867(1)
+<br/>
+Description:  Titanium is the strongest lightweight metal and is heat-resistant.
+<br/>
+Where It's Used:  Titanium is an incredibly strong metal used in alloys with aluminum, iron, and other metals. This strong metal is used in the aerospace industry as well as engines. It can maintain its strength in thermal extremes.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="V">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_23.jpg">
+       <h3>23. Vanadium</h3> <hr/>
+       <p>
+
+Symbol:  V
+<br/>
+Atomic Weight:  50.9415(1)
+<br/>
+Description:  Vanadium is a hard metal.
+<br/>
+Where It's Used:  This element is used in jet engines and aircraft components. All of its uses require it to be combined with another metal or element, such as Vanadium-gallium tape used in magnets.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Cr">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_24.jpg">
+       <h3>24. Chromium</h3> <hr/>
+       <p>
+
+Symbol:  Cr
+<br/>
+Atomic Weight:  51.9961(6)
+<br/>
+Description:  Chromium is a hard shiny metal.
+<br/>
+Where It's Used:  Chromium is used in stainless steel as well as in the chrome plating process. Various chromium compounds are known for their vivid colors.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Mn">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_25.jpg">
+       <h3>25. Manganese</h3> <hr/>
+       <p>
+
+Symbol:  Mn
+<br/>
+Atomic Weight:  54.938044(3)
+<br/>
+Description:  Manganese is a hard metal.
+<br/>
+Where It's Used:  Manganese dioxide makes up about .14% of Earth's crust. It is used in glass to remove the green color present from iron compounds.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Fe">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_26.jpg">
+      <h3>26. Iron</h3> <hr/>
+       <p>Latin-Ferrum
+
+Symbol:  Fe
+<br/>
+Atomic Weight:  55.845(2)
+<br/>
+Description:  Iron is a medium-hard metal and has magnetic properties.
+<br/>
+Where It's Used:  Iron's prime use is in making steel. When steel is combined with chromium, it produces stainless steel which is resistant to corrosion.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Co">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_27.jpg">
+       <h3>27. Cobalt</h3> <hr/>
+       <p>
+
+Symbol:  Co
+<br/>
+Atomic Weight:  58.933194(4)
+<br/>
+Description:  Cobalt is a hard metal and is magnetic.
+<br/>
+Where It's Used:  Cobalt is used mostly as a cancer treatment and in radiotherapy.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Ni">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_28.jpg">
+       <h3>28. Nickel</h3> <hr/>
+       <p>
+
+Symbol:  Ni
+<br/>
+Atomic Weight:  58.6934(4)
+<br/>
+Description:  Nickel is a medium-hard metal and is magnetic.
+<br/>
+Where It's Used:  Nickel is used in stainless steel and other anti-corrosion metal alloys. Other prominent uses include piping and tubing production as well as in the desalination process.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Cu">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_29.jpg">
+       <h3>29. Copper</h3> <hr/>
+       <p>Latin-Cuprum
+
+Symbol:  Cu
+<br/>
+Atomic Weight:  63.546(3)
+<br/>
+Description:  Copper is a colored metal that conducts heat and electricity well.
+<br/>
+Where It's Used:  Copper is one of the best conductors of electricity, which lends to its use in electronics and motors. The metal is also very thermally conductive, so it is used in radiators, A/C units, and heating systems.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Zn">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_30.jpg">
+       <h3>30. Zinc</h3> <hr/>
+       <p>
+
+Symbol:  Zn
+<br/>
+Atomic Weight:  65.38(2)
+<br/>
+Description:  Zinc is a non-corroding metal.
+<br/>
+Where It's Used:  Zinc is used as an alloying agent in brass, nickel, silver and aluminum. Paints, rubbers, cosmetics, batteries, textiles, and inks also have a significant need for the element.
+  </p> 
+    </div>
+    </div>
+    
+    <div class="popup" id="Ga">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_31.jpg">
+       <h3>31. Gallium</h3> <hr/>
+       <p> 
+
+Symbol:  Ga
+<br/>
+Atomic Weight:  69.723(1)
+<br/>
+Description:  Gallium is a soft metal that has a low melting point.
+<br/>
+Where It's Used:  Since gallium has a low melting point, it is often used in medical thermometers as a substitute for mercury. When combined with arsenic, it is used in semiconductors, lasers, and solar panels. It can also be used in mirror manufacturing.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Ge">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_32.jpg">
+       <h3>32. Germanium</h3> <hr/>
+       <p>
+
+Symbol:  Ge
+<br/>
+Atomic Weight:  72.630(8)
+<br/>
+Description:  Germanium is a brittle metalloid.
+<br/>
+Where It's Used:  Germanium finds its uses in the semiconductor industry. When it is doped with other elements, it makes highly efficient transistors. Continuing on with its electronic uses, it is also implemented in fluorescent lamps.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="As">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_33.jpg">
+       <h3>33. Arsenic</h3> <hr/>
+       <p>
+
+Symbol:  As
+<br/>
+Atomic Weight:  74.921595(6)
+<br/>
+Description:  Arsenic is a brittle metalloid.
+<br/>
+Where It's Used:  This element is used as a doping agent in transistors, primarily with Gallium. Many arsenic compounds are used as insecticides and poisons.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Se">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_34.jpg">
+       <h3>34. Selenium</h3> <hr/>
+       <p>
+
+Symbol:  Se
+<br/>
+Atomic Weight:  78.971(8)
+<br/>
+Description:  Selenium is a brittle gray solid.
+<br/>
+Where It's Used:  Primary uses for selenium are in the glass industry. Its properties allow it to decolorize class and make red glass as well. It is used in solar and photocells. In film photography, it is also used as a photographic toner.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Br">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_35.jpg">
+       <h3>35. Bromine</h3> <hr/>
+       <p>
+
+Symbol:  Br
+<br/>
+Atomic Weight:  79.904
+<br/>
+Description:  Bromine is a dark red liquid.
+<br/>
+Where It's Used:  Bromine is used as a flame-retarder in plastics and electronics. It can also be used to purify and disinfect water, leading to its uses in swimming pools and hot tubs.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Kr">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_36.jpg">
+       <h3>36. Krypton</h3> <hr/>
+       <p>
+
+Symbol: Kr
+<br/>
+Atomic Weight:  83.798(2)
+<br/>
+Description:  Krypton is an inert gas.
+<br/>
+Where It's Used:  About .0001% of Earth's atmosphere is krypton, which makes obtaining it relatively hard. The element is used for flashes in high-speed photography as well as a conductive gas in fluorescent lights.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Rb">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_37.jpg">
+       <h3>37. Rubidium</h3> <hr/>
+       <p>
+
+Symbol:  Rb
+<br/>
+Atomic Weight:  85.4678(3)
+<br/>
+Description:  Rubidium is a soft metal that is reactive.
+<br/>
+Where It's Used:  Rubidium is used in vacuum tubes to remove trace gases. It also is heavily used in photocells and specialized glasses. It can be ionized easily, so it is often utilized as a propellant in spacecraft.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Sr">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_38.jpg">
+       <h3>38. Strontium</h3> <hr/>
+       <p>
+
+Symbol: Sr
+<br/>
+Atomic Weight: 8 7.62(1)
+<br/>
+Description:  Strontium is a soft metal.
+<br/>
+Where It's Used:  Strontium is used in pyrotechnics to produce brilliant reds. It can also be used in ferrite magnet production and zinc refining.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Y">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_39.jpg">
+       <h3>39. Yttrium</h3> <hr/>
+       <p>
+
+Symbol:  Y
+<br/>
+Atomic Weight:   88.90584(2)
+<br/>
+Description:  Yttrium is a soft metal.
+<br/>
+Where It's Used:  An oxide of yttrium is used to make red phosphorus television tubes. Along with this, it is used to increase the strength in aluminum and magnesium alloys.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Zr">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_40.jpg">
+       <h3>40. Zirconium</h3> <hr/>
+       <p>
+
+Symbol:  Zr
+<br/>
+Atomic Weight:  91.224(2)
+<br/>
+Description:  Zirconium is a non-corroding neutron-resistant metal.
+<br/>
+Where It's Used:  Zirconium is used as an anti-corrosion compound in pumps and valves. It does not absorb neutrons, so it is also widely used in nuclear reactors.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Nb">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_41.jpg">
+       <h3>41. Niobium</h3> <hr/>
+       <p>
+
+Symbol:  Nb
+<br/>
+Atomic Weight:  92.90637(2)
+<br/>
+Description:  Niobium is a non-corroding metal with a high melting point.
+<br/>
+Where It's Used:  Niobium is used in stainless steel alloys. Alloys produced with Niobium are very strong and are often used in pipelines and jet engines.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Mo">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_42.jpg">
+       <h3>42. Molybdenum</h3> <hr/>
+       <p>
+
+Symbol:  Mo
+<br/>
+Atomic Weight:  95.95(1)
+<br/>
+Description:  Molybdenum is a high-melting-point metal.
+<br/>
+Where It's Used:  Molybdenum is used in missile and aircraft parts as well as the nuclear power industry. It can be used to refine petroleum, but its main use is as an alloying agent to refine steel.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Tc">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      
+       <h3>43. Technetium</h3> <hr/>
+       <p>
+
+Symbol:  Tc
+<br/>
+Atomic Weight:  [98]
+<br/>
+Description:  Technetium is a radioactive element that is long-lived.
+<br/>
+Where It's Used:  Technetium is a synthesized element that can be used as a radioactive tracer.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Ru">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_44.jpg">
+       <h3>44. Ruthenium</h3> <hr/>
+       <p>
+
+Symbol:  Ru
+<br/>
+Atomic Weight:  101.07(2)
+<br/>
+Description:  Ruthenium is a hard metal that is non-corrosive.
+<br/>
+Where It's Used:  Ruthenium is used as a catalyst to harden metals. It is also used in electrical contacts and to color glass.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Rh">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_45.jpg">
+       <h3>45. Rhodium</h3> <hr/>
+       <p>
+
+Symbol:  Rh
+<br/>
+Atomic Weight:  102.90550(2)
+<br/>
+Description:  Rhodium is a non-corroding hard shiny metal.
+<br/>
+Where It's Used:  Rhodium is used to manufacture electrical contacts. This use extends into catalytic converters, but its primary use is as an alloying agent. Alloys of rhodium can be used in furnaces, electrodes, and spark plugs.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Pd">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_46.jpg">
+       <h3>46. Palladium</h3> <hr/>
+       <p>
+
+Symbol:  Pd
+<br/>
+Atomic Weight:  106.42(1)
+<br/>
+Description:  Palladium is a non-corroding hard metal that readily absorbs hydrogen.
+<br/>
+Where It's Used:  Palladium is an important element to the catalytic conversion process. It is also used in jewelry and dental fillings.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Ag">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_47.jpg">
+       <h3>47. Silver</h3> <hr/>
+       <p>Argentum
+
+Symbol:  Ag
+<br/>
+Atomic Weight:  107.8682(2)
+<br/>
+Description:  Silver is a soft shiny metal that is the best electrical conductor.
+<br/>
+Where It's Used:  Silver is used in jewelry and tableware. It is the best reflector of light known to man, although it does tarnish. It is used in soldering and brazing compounds as well as batteries.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Cd">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_48.jpg">
+       <h3>48. Cadmium</h3> <hr/>
+       <p>
+
+Symbol:  Cd
+<br/>
+Atomic Weight:  112.414(4)
+<br/>
+Description:  Cadmium is a non-corroding soft metal that is toxic.
+<br/>
+Where It's Used:  Cadmium is poisonous, so it has few uses. It can be used to prevent corrosion or to absorb neutrons in nuclear reactors. One of its more commercial uses is in rechargeable nickel-cadmium batteries.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="In">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_49.jpg">
+       <h3>49. Indium</h3> <hr/>
+       <p>
+
+Symbol:  In
+<br/>
+Atomic Weight:  114.818(1)
+<br/>
+Description:  Indium is a soft metal.
+<br/>
+Where It's Used:  Indium is primarily used as a doping agent for germanium in the transistor manufacturing process. It is also used to make highly reflective mirrors and low-melting point alloys.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Sn">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_50.jpg">
+       <h3>50. Tin</h3> <hr/>
+       <p>Stannum
+
+Symbol:  Sn
+<br/>
+Atomic Weight:  118.710(7)
+<br/>
+Description:  Tin is a non-corroding soft metal.
+<br/>
+Where It's Used:  Tin has the ability to be polished to a high degree and is not corrodible. It is mainly used to coat other metals or as an alloy in solder and pewter. Niobium-tin magnets are known for their superconducting abilities.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Sb">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_51.jpg">
+       <h3>51. Antimony</h3> <hr/>
+       <p>Stibium
+
+Symbol:  Sb
+<br/>
+Atomic Weight:  121.760(1)
+<br/>
+Description:  Antimony is a brittle metalloid.
+<br/>
+Where It's Used:  Antimony is mainly used in batteries, cable sheathing, and other metal products. It can be used to make flame-proof materials and paints. Ancient Egyptians used the element as black eye make-up.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Te">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_52.jpg">
+    <h3>52. Tellurium</h3> <hr/>
+       <p>
+
+Symbol:  Te
+<br/>
+Atomic Weight:  127.60(3)
+<br/>
+Description:  Tellurium is a brittle metalloid.
+<br/>
+Where It's Used:  Tellurium allows better machinability of copper and stainless steel. It is used as a basic component of cast iron and blasting caps.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="I">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_53.jpg">
+       <h3>53. Iodine</h3> <hr/>
+       <p>
+
+Symbol:  I
+<br/>
+Atomic Weight:  126.90447(3)
+<br/>
+Description:  Iodine is a violet-black solid.
+<br/>
+Where It's Used:  Iodine is used in photographic film and as an antiseptic for wounds. The radioactive isotope iodine-131 is used to treat some thyroid diseases.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Xe">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_54.jpg">
+       <h3>54. Xenon</h3> <hr/>
+       <p>
+
+Symbol:  Xe
+<br/>
+Atomic Weight:  131.293(6)
+<br/>
+Description:  Xenon is an inert gas.
+<br/>
+Where It's Used:  Xenon is used in photographic flashes and arc lamps for movie sets. When pressurized into an arc lamp, it can produce UV light. It is also used for radiation detection and in X-ray counters.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Cs">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_55.jpg">
+       <h3>55. Caesium</h3> <hr/>
+       <p>
+
+Symbol:  Cs
+<br/>
+Atomic Weight:  132.90545196(6)
+<br/>
+Description:  Caesium (Cesium) is a soft metal that is reactive and has the largest stable atoms.
+<br/>
+Where It's Used:  Caesium is used as a getter in vacuum tubes to remove trace gasses. It is also a prime element in atomic clocks as well as being a catalyst to the process of hydrogenation.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Ba">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_56.jpg">
+       <h3>56. Barium</h3> <hr/>
+       <p>
+
+Symbol:  Ba
+<br/>
+Atomic Weight:  137.327(7)
+<br/>
+Description:  Barium is a soft metal that absorbs X-rays.
+<br/>
+Where It's Used:  Barium is used to produce a green glow in pyrotechnics. It is also used as a getter to remove gases from vacuum tubes. Compounds of barium are used as a contrast medium in X-rays.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="La">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_57.jpg">
+       <h3>57. Lanthanum</h3> <hr/>
+       <p>
+
+Symbol:  La
+<br/>
+Atomic Weight:  138.90547(7)
+<br/>
+Description:  Lanthanum is a soft metal.
+<br/>
+Where It's Used:  Lanthanum is used along with rare earth elements to make arc lights for movie sets. The metal also makes up about 25% of Misch metal, which is used in flint production for lighters.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Ce">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_58.jpg">
+       <h3>58. Cerium</h3> <hr/>
+       <p>
+
+Symbol:  Ce
+<br/>
+Atomic Weight:  140.116(1)
+<br/>
+Description:  Cerium is a soft metal.
+<br/>
+Where It's Used:  Cerium is also used as a component of Misch metal to produce flint for lighters. It can be used as a catalyst to refine oil. Cerium oxide is also used as a component of walls in self-cleaning ovens.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Pr">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_59.jpg">
+       <h3>59. Praseodymium</h3> <hr/>
+       <p>
+
+Symbol:  Pr
+<br/>
+Atomic Weight:  140.90766(2)
+<br/>
+Description:  Praseodymium is a soft metal.
+<br/>
+Where It's Used:  Praseodymium is used to make yellow glass goggles for welders. Praseodymium is also used in flint lighter products. Its main use, however, is to color glass and enamels.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Nd">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_60.jpg">
+       <h3>60. Neodymium</h3> <hr/>
+       <p>
+
+Symbol:  Nd
+<br/>
+Atomic Weight:  144.242(3)
+<br/>
+Description:  Neodymium is a soft metal.
+<br/>
+Where It's Used:  Neodymium is used to make flint for lighters and is a component of specialized welder's goggles. It can also be used to make powerful magnets.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Pm">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_61.jpg">
+       <h3>61. Promethium</h3> <hr/>
+       <p>
+
+Symbol:  Pm
+<br/>
+Atomic Weight: [145]
+<br/>
+Description:  Promethium is a radioactive element that is long-lived.
+<br/>
+Where It's Used:  Promethium is used mainly for research in radiation. It can be used in nuclear batteries and as a light source for signals. Researchers believe that it could soon be used in portable x-ray machines.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Sm">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_62.jpg">
+       <h3>62. Samarium</h3> <hr/>
+       <p>
+
+Symbol:  Sm
+<br/>
+Atomic Weight:  150.36(2)
+<br/>
+Description:  Samarium is a soft metal.
+<br/>
+Where It's Used:  Samarium is used as a catalyst for dehydration and dehydrogenation of ethanol fuels. It can also be used to absorb infrared light rays and in the treatment of cancer.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Eu">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_63.jpg">
+       <h3>63. Europium</h3> <hr/>
+       <p>
+
+Symbol:  Eu
+<br/>
+Atomic Weight:  151.964(1)
+<br/>
+Description:  Europium is a soft metal.
+<br/>
+Where It's Used:  Europium is a good absorber of neutrons, so it is often used in nuclear reactors. One of its compounds is also used in the production of red phosphorus in television sets.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Gd">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_64.jpg">
+       <h3>64. Gadolinium</h3> <hr/>
+       <p>
+
+Symbol:  Gd
+<br/>
+Atomic Weight:  157.25(3)
+<br/>
+Description:  Gadolinium is a soft metal that is the best neutron absorber and is magnetic.
+<br/>
+Where It's Used:  Gadolinium is often used in applications where microwaves are present. It can also be used in green phosphor television tubes. The element is magnetic, which has led to its use in MRI machines.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Tb">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_65.jpg">
+       <h3>65. Terbium</h3> <hr/>
+       <p>
+
+Symbol:  Tb
+<br/>
+Atomic Weight:  158.92535(2
+<br/>
+Description:  Terbium is a soft metal.
+<br/>
+Where It's Used:  Terbium is used as a stabilizer of high-temperature fuel cells. Its alloys are also used in electronic devices and as magnetic field indicators.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Dy">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_66.jpg">
+       <h3>66. Dysprosium</h3> <hr/>
+       <p>
+
+Symbol:  Dy
+<br/>
+Atomic Weight:  162.500(1)
+<br/>
+Description:  Dysprosium is a soft metal.
+<br/>
+Where It's Used:  When combined with rare earth elements, Dysprosium is used as a laser material. It can also be used in nuclear reactor rods.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Ho">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_67.jpg">
+       <h3>67. Holmium</h3> <hr/>
+       <p>
+
+Symbol:  Ho
+<br/>
+Atomic Weight:  164.93033(2)
+<br/>
+Description:  Holmium is a soft metal.
+<br/>
+Where It's Used:  Holmium is used in the production of magnets as a flux concentrator. It is also used as a yellow or red color in cubic zirconia manufacturing.
+  </p> 
+    </div>
+    </div>
+    <div class="popup" id="Er">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_68.jpg">
+       <h3>68. Erbium</h3> <hr/>
+       <p>
+Symbol:  Er
+<br/>
+Atomic Weight:  167.259(3)
+<br/>
+Description:  Erbium is a soft metal
+<br/>
+Where It's Used:  Erbium is a good neutron absorber, leading to its use in nuclear control rods. It can also be used to reduce the hardness of metals along with applications in amps and lasers.
+  </p> 
+    </div>
+    </div>
+    
+    <div class="popup" id="Tm">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_69.jpg">
+       <h3>69. Thulium</h3> <hr/>
+       <p>
+
+Symbol:  Tm
+<br/>
+Atomic Weight:  168.93422(2)
+<br/>
+Description:  Thulium is a soft metal.
+<br/>
+Where It's Used:  Thulium is the least naturally-occurring element on earth. This soft metal is very expensive and has no commercial applications.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Yb">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_70.jpg">
+       <h3>70. Ytterbium</h3> <hr/>
+       <p>
+
+Symbol:  Yb
+<br/>
+Atomic Weight:  173.045(10)
+<br/>
+Description:  Ytterbium is a soft metal.
+<br/>
+Where It's Used:  Ytterbium is believed to be useable in grain refinement within steel. Other than this plausible use, no other uses have been found.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Lu">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_71.jpg">
+       <h3>71. Lutetium</h3> <hr/>
+       <p>Symbol: Lu
+<br/>
+Atomic Weight:  174.9668(1)
+<br/>
+Description:  Lutetium is a soft metal and is the densest and hardest rare earth metal.
+<br/>
+Where It's Used:  Lutetium is very rare and high in price. When refined, it can be used in the petroleum cracking process. There are few other commercial applications.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Hf">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_72.jpg">
+       <h3>72. Hafnium</h3> <hr/>
+       <p>
+
+Symbol:  Hf
+<br/>
+Atomic Weight:  178.49(2)
+<br/>
+Description:  Hafnium is a non-corroding metal that absorbs neutrons.
+<br/>
+Where It's Used:  Hafnium is a good neutron absorber, so it is used in nuclear control rods in nuclear submarines. Due to its high melting point, it is also used in plasma welding torches. Hafnium oxide is used in microchips.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Ta">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_73.jpg">
+       <h3>73. Tantalum</h3> <hr/>
+       <p>
+
+Symbol:  Ta
+<br/>
+Atomic Weight:  180.94788(2)
+<br/>
+Description:  Tantalum is a high-melting-point non-corroding metal.
+<br/>
+Where It's Used:  Tantalum is used in the electronics industry for capacitors and resistors. It can be used to increase strength in metal alloys as well as increase corrosion resistance. The metal is also used in surgical instruments because it causes no immune response.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="W">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_74.jpg">
+       <h3>74. Tungsten</h3> <hr/>
+       <p>Wolframium
+
+Symbol:  W
+<br/>
+Atomic Weight:  183.84(1)
+<br/>
+Description:  Tungsten is a highest-melting-point dense metal.
+<br/>
+Where It's Used:  Tungsten has the highest melting point of all metals, leading to its use as filaments in incandescent bulbs. It is also used in steels to impart strength.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Re">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_75.jpg">
+       <h3>75. Rhenium</h3> <hr/>
+       <p>
+
+Symbol:  Re
+<br/>
+Atomic Weight:  186.207(1)
+<br/>
+Description:  Rhenium is a high-melting-point dense metal.
+<br/>
+Where It's Used:  Rhenium is a common catalyst in the production of high-octane gasoline. It is also used in alloys for jet engines and as filaments for mass spectrographs.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Os">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_76.jpg">
+       <h3>76. Osmium</h3> <hr/>
+       <p>
+
+Symbol:  Os
+<br/>
+Atomic Weight:  190.23(3)
+<br/>
+Description:  Osmium is a non-corroding high-melting-point hard metal and is the densest element.
+<br/>
+Where It's Used:   Osmium is mainly used to make hard metal alloys. You can find it in ball point pen tips, record needles, electrical contacts, and other metal components where friction needs to be mitigated.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Ir">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_77.jpg">
+       <h3>77. Iridium</h3> <hr/>
+       <p>
+
+Symbol:  Ir
+<br/>
+Atomic Weight:  192.217(3)
+<br/>
+Description:  Iridium is a non-corroding hard metal and is also the densest element (same as Os).
+<br/>
+Where It's Used:  Iridium is mostly used as a hardening agent for platinum. This element is also used in fountain pen tips and compass bearings.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Pt">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_78.jpg">
+       <h3>78. Platinum</h3> <hr/>
+       <p>
+
+Symbol:  Pt
+<br/>
+Atomic Weight:  195.084(9)
+<br/>
+Description:  Platinum is a non-corroding dense metal.
+<br/>
+Where It's Used:  Platinum has long been used for jewelry and for its corrosion resistant properties. Its main use is in catalytic converters for automobiles.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Au">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_79.jpg">
+       <h3>79. Gold</h3> <hr/>
+       <p>Aurum
+
+Symbol:  Au
+<br/>
+Atomic Weight:  196.966569(5)
+<br/>
+Description:  Gold is the most malleable element, and is a dense non-tarnishing colored metal.
+<br/>
+Where It's Used:  Gold is one of the most coveted metals in the world. It can be shaped and sculpted and it does not tarnish.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Hg">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_80.jpg">
+       <h3>80. Mercury</h3> <hr/>
+       <p>Latin-Hydrargyrum
+
+Symbol:  Hg
+<br/>
+Atomic Weight:  200.592(3)
+<br/>
+Description:  Mercury is a liquid metal and is toxic.
+<br/>
+Where It's Used:  Mercury is used to make thermometers, barometers, and other instruments. It is often used in streetlights and fluorescent lamps.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Tl">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_81.jpg">
+      <h3>81. Thallium</h3> <hr/>
+       <p>
+
+Symbol: Tl
+<br/>
+Atomic Weight:  204.38
+<br/>
+Description:  Thallium is a toxic soft metal.
+<br/>
+Where It's Used:  Thallium is used to form low-melting point glass. It was once used as rat poison, but it is now banned from household use.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Pb">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_82.jpg">
+       <h3>82.Lead</h3> <hr/>
+       <p>Plumbum<br/>
+
+Symbol: Pb
+<br/>
+Atomic Weight: 207.2(1)
+<br/>
+Description:  Lead is a dense, soft, non-corroding toxic metal.
+<br/>
+Where It's Used:  Lead is used as a coating for wires to protect from corrosion. Most lead is used in lead-acid batteries for automobiles.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Bi">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_83.jpg">
+       <h3>83. Bismuth</h3> <hr/>
+       <p>Latin-Bisemutum (Bismuthum, Bismutum)
+Symbol:  Bi
+<br/>
+Atomic Weight:  208.98040(1)
+<br/>
+Description:  Bismuth is a brittle metal with a low melting point.
+<br/>
+Where It's Used:  Bismuth is usually used in fire detectors and fire extinguishment systems due to its low melting point. This has also led to its use in electrical fuses.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Po">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_84.jpg">
+       <h3>84. Polonium</h3> <hr/>
+       <p>
+
+Symbol:  Po
+<br/>
+Atomic Weight:  [209]
+<br/>
+Description:  Polonium is a radioactive element that is long-lived.
+<br/>
+Where It's Used:  Polonium is used as an atomic heat source for short term use. It is also seen in anti-static brushes and in film.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="At">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_85.jpg">
+       <h3>85. Astatine</h3> <hr/>
+       <p>
+
+Symbol:  At
+<br/>
+Atomic Weight:  [210]
+<br/>
+Description:  Astatine is a radioactive element that is short-lived.
+<br/>
+Where It's Used:  Astatine is used as a radioactive tracer and in cancer treatment.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Rn">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_86.jpg">
+       <h3>86. Radon</h3> <hr/>
+       <p>
+
+Symbol:  Rn
+<br/>
+Atomic Weight:  [222]
+<br/>
+Description:  Radon is a  radioactive gas that is short-lived.
+<br/>
+Where It's Used:  Radon is used to treat cancer. It was often produced in hospitals by pumping radon from radium and then sealing it into tubes.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Fr">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_87.jpg">
+       <h3>87. Francium</h3> <hr/>
+       <p>
+
+Symbol:  Fr
+<br/>
+Atomic Weight:  [223]
+<br/>
+Description:  Francium is a radioactive and short-lived element with atoms larger than cesium.
+<br/>
+Where It's Used:  The most stable isotope of francium, francium-223, has a half-life of 22 minutes. Due to its short lifespan, this element has no uses.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Ra">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_88.jpg">
+       <h3>88. Radium</h3> <hr/>
+       <p>
+
+Symbol:  Ra
+<br/>
+Atomic Weight:  [226]
+<br/>
+Description:  Radium is a radioactive element that is long-lived.
+<br/>
+Where It's Used:  Radium is used as a neutron source and is also used to produce radon. One gram of radium-226 will make .0001 mL of radon each day. The element is 1,000,000 times more active than uranium.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Ac">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_89.jpg">
+       <h3>89. Actinium</h3> <hr/>
+       <p>
+
+Symbol:  Ac
+<br/>
+Atomic Weight:  [227]
+<br/>
+Description:  Actinium is a radioactive element that is long-lived.
+<br/>
+Where It's Used:  Actinium is used in medicine for radio-immunotherapy. It is only found in uranium ore, which makes it very expensive. One ton of uranium is equivalent to 1/10th of a gram of actinium.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Th">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_90.jpg">
+       <h3>90. Thorium</h3> <hr/>
+       <p>
+
+Symbol:  Th
+<br/>
+Atomic Weight:  232.0377(4)
+<br/>
+Description:  Thorium is a radioactive element that is long-lived.
+<br/>
+Where It's Used:  Thorium is used to coat filaments in incandescent bulbs. It can be used as nuclear fuel through fission.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Pa">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_91.jpg">
+       <h3>91. Protactinium</h3> <hr/>
+       <p>Symbol: Pa
+<br/>
+Atomic Weight:  231.03588(2)
+<br/>
+Description:  Protactinium is a radioactive element that is long-lived.
+<br/>
+Where It's Used:  There are currently no uses for protactinium due to its relative rarity.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="U">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_92.jpg">
+       <h3>92.Uranium</h3> <hr/>
+       <p>
+
+Symbol:  U
+<br/>
+Atomic Weight:  238.02891(3)
+<br/>
+Description:  Uranium is a radioactive element that is long-lived.
+<br/>
+Where It's Used:  Uranium generates heat for nuclear power reactors and produces the material needed for nuclear weapons. It is also used as a colorant for glass.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Np">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      
+       <h3>93. Neptunium</h3> <hr/>
+       <p>
+
+Symbol:  Np
+<br/>
+Atomic Weight:  [237]
+<br/>
+Description:  Neptunium is a radioactive element that is long-lived.
+<br/>
+Where It's Used:  Neptunium does not have any known uses.
+  </p> 
+    </div>
+    </div>
+    
+    
+	    <div class="popup" id="pu">
+    <div class="popup-container">
+	    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/ element_94.jpg"> 
+       <h3>94. Plutonium</h3> <hr/>
+       <p>
+
+Symbol:  Pu
+<br/>
+Atomic Weight:  [244]
+<br/>
+Description:  Plutonium is a radioactive element that is long-lived.
+<br/>
+Where It's Used:  Plutonium is used as a nuclear fuel and in nuclear weapons.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Am">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_95.jpg">
+       <h3>95. Americium</h3> <hr/>
+       <p>
+
+Symbol:  Am
+<br/>
+Atomic Weight:  [243]
+<br/>
+Description:  Americium is a radioactive element that is long-lived.
+<br/>
+Where It's Used:   Americium is used in smoke detectors and is a portable source of gamma rays.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Cm">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_96.jpg">
+       <h3>96. Curium</h3> <hr/>
+       <p>
+
+Symbol:  Cm
+<br/>
+Atomic Weight:  [247]
+<br/>
+Description:  Curium is a radioactive element that is long-lived.
+<br/>
+Where It's Used:  Curium is mainly used for research, but it could produce more nuclear energy per gram than plutonium.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Bk">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      
+       <h3>97. Berkelium</h3> <hr/>
+       <p>
+
+Symbol:  Bk
+<br/>
+Atomic Weight:  [247]
+<br/>
+Description:  Berkelium is a radioactive element that is long-lived.
+<br/>
+Where It's Used:  Berkelium has no uses due to its rarity.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Cf">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_98.jpg">
+       <h3>98. Californium</h3> <hr/>
+       <p>
+
+Symbol:  Cf
+<br/>
+Atomic Weight:  [251]
+<br/>
+Description:  Californium is a radioactive element that is long-lived.
+<br/>
+Where It's Used:  Californium is a strong neutron emitter. It is used in metal detectors for silver and gold. It also can be used to identify oil layers underground and detect metal fatigue in aerospace applications.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Es">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_99.jpg">
+       <h3>99. Einsteinium</h3> <hr/>
+       <p>
+
+Symbol:  Es
+<br/>
+Atomic Weight:  [252]
+<br/>
+Description:  Einsteinium is a radioactive element that is short-lived.
+<br/>
+Where It's Used:  No use outside research.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Fm">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      
+       <h3>100. Fermium</h3> <hr/>
+       <p>
+
+Symbol:  Fm
+<br/>
+Atomic Weight:  [257]
+<br/>
+Description:  Fermium is a radioactive element that is short-lived.
+<br/>
+Where It's Used:  No use outside research.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Md">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_101.jpg">
+       <h3>101. Mendelevium</h3> <hr/>
+       <p>
+
+Symbol:  Md
+<br/>
+Atomic Weight:  [258]
+<br/>
+Description:  Mendelevium is a radioactive element that is short-lived.
+<br/>
+Where It's Used:  No use outside research.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="No">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_102.jpg">
+       <h3>102. Nobelium</h3> <hr/>
+       <p>
+
+Symbol:  No
+<br/>
+Atomic Weight:  [259]
+<br/>
+Description:  Nobelium is a radioactive element that is short-lived
+<br/>
+Where It's Used:  No use outside research.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Lr">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_103.jpg">
+       <h3>103. Lawrencium</h3> <hr/>
+       <p>
+
+Symbol:  Lr
+<br/>
+Atomic Weight:  [266]
+<br/>
+Description:  Lawrencium is a radioactive element that is short-lived.
+<br/>
+Where It's Used:  No use outside research.
+  </p> 
+    </div>
+    </div>
+   
+    <div class="popup" id="Rf">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      <img class="elemimg" src="images/elements/element_104.jpg">
+       <h3>104. Rutherfordium</h3> <hr/>
+       <p>
+
+Symbol:  Rf
+<br/>
+Atomic Weight:  [267]
+<br/>
+Description:  Rutherfordium is a radioactive element that is short-lived.
+<br/>
+Where It's Used:  No use outside research.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Db">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      
+       <h3>105. Dubnium</h3> <hr/>
+       <p>
+
+Symbol:  Db
+<br/>
+Atomic Weight:  [268]
+<br/>
+Description:  Dubnium is a radioactive element that is short-lived.
+<br/>
+Where It's Used:  No use outside research.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Sg">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      
+       <h3>106. Seaborgium</h3> <hr/>
+       <p>
+
+Symbol:  Sg
+<br/>
+Atomic Weight:  [269]
+<br/>
+Description:  Seaborgium is a radioactive element that is short-lived.
+<br/>
+Where It's Used:  No use outside research.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Bh">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      
+       <h3>107. Bohrium</h3> <hr/>
+       <p>
+
+Symbol:  Bh
+<br/>
+Atomic Weight:  [270]
+<br/>
+Description:  Bohrium is a radioactive element that is short-lived.
+<br/>
+Where It's Used:  No use outside research.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Hs">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      
+       <h3>108. Hassium</h3> <hr/>
+       <p>
+
+Symbol:  Hs
+<br/>
+Atomic Weight:  [277]
+<br/>
+Description:  Hassium is a radioactive element that is short-lived.
+<br/>
+Where It's Used:  No use outside research.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Mt">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      
+       <h3>109. Meitnerium</h3> <hr/>
+       <p>
+
+Symbol:  Mt
+<br/>
+Atomic Weight:  [278]
+<br/>
+Description:  Meitnerium is a radioactive element that is short-lived.
+<br/>
+Where It's Used:  No use outside research.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Ds">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      
+       <h3>110. Darmstadtium</h3> <hr/>
+       <p>
+
+Symbol:  Ds
+<br/>
+Atomic Weight:  [281]
+<br/>
+Description:  Darmstadtium is a radioactive element that is short-lived.
+<br/>
+Where It's Used:  No use outside research.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Rg">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      
+       <h3>111. Roentgenium</h3> <hr/>
+       <p>
+
+Symbol:  Rg
+<br/>
+Atomic Weight:  [282]
+<br/>
+Description:  Roentgenium is a radioactive element that is short-lived.
+<br/>
+Where It's Used:  No use outside research.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Cn">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      
+       <h3>112. Copernicium</h3> <hr/>
+       <p>
+
+Symbol:  Cn
+<br/>
+Atomic Weight:  [285]
+<br/>
+Description:  Copernicium is a radioactive element that is short-lived.
+<br/>
+Where It's Used:  No use outside research.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Nh">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      
+       <h3>113. Nihonium</h3> <hr/>
+       <p>
+
+Symbol:  Nh
+<br/>
+Atomic Weight:  [286]
+<br/>
+Description:  Nihonium is a radioactive element that is short-lived.
+<br/>
+Where It's Used:  No use outside research.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Fl">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      
+       <h3>114. Flerovium</h3> <hr/>
+       <p>
+
+Symbol:  Fl
+<br/>
+Atomic Weight:  [289]
+<br/>
+Description:  Flerovium is a radioactive element that is short-lived.
+<br/>
+Where It's Used:  No use outside research.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Mc">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      
+       <h3>115. Moscovium</h3> <hr/>
+       <p>
+
+Symbol:  Mc
+<br/>
+Atomic Weight:  [290]
+<br/>
+Description:  Moscovium is a radioactive element that is short-lived.
+<br/>
+Where It's Used:  No use outside research.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Lv">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      
+       <h3>116. Livermorium</h3> <hr/>
+       <p>
+
+Symbol: Lv
+<br/>
+Atomic Weight:  [293]
+<br/>
+Description:  Livermorium is a radioactive element that is short-lived.
+<br/>
+Where It's Used:  No use outside research.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Ts">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      
+       <h3>117. Tennessine</h3> <hr/>
+       <p>
+
+Symbol:  Ts
+<br/>
+Atomic Weight:  [294]
+<br/>
+Description:  Tennessine is a radioactive element that is short-lived.
+<br/>
+Where It's Used:  No use outside research.
+  </p> 
+    </div>
+    </div>
+    
+    
+    <div class="popup" id="Og">
+    <div class="popup-container">
+    <div id="X-button"><a href="#popup-close" id="X">X</a></div>      
+       <h3>118. Oganesson></h3> <hr/>
+       <p>
+Symbol:  Og
+<br/>
+Atomic Weight:  [294]
+<br/>
+Description:  Oganesson is a radioactive element that is short-lived. It is the heaviest element known to man (at the time of writing).
+<br/>
+Where It's Used: No use outside research.
+  </p> 
+    </div>
+    </div>
+</div>    
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#" onclick="openAbout()">About</a>
+  <a href="#" onclick="fnalert()">Services</a>
+  <a href="sources.html">Source</a>
+  <a href="feedback.php">Contact me</a>
+
+
+        
+        <div class="toggletheme">
+         <div class="textalign">  <p>Alt Theme </p></div>
+            <div class="buttonalign"><input type="checkbox" id="switch" name="theme" class="theme-switch"/></div>
+        </div>
+
+</div>
+<div id="myAbout" class="myabout">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeAbout()"> &times;</a>
+            <!-- header start -->
+    <!--   <h1><span>About Me</span></h1>-->
+           
+        <div id="profile" class="section">
+            <img alt=" profie photo " class="img-circle" src=" images/profile.jpg">
+            <p>Chandrabhan Patel</p>
+        </div>
+        <!-- next part--> 
+    
+        <div class="section">
+          <p>
+                Hey!  This whole shit was done by <strong>Chandrabhan patel</strong>.  I don't know, when I will make something better than this. Dont mind the quote below, It's purely copied. feedbacks will be heartly welcomed by me . See the contact me section. </p>
+            <p class="quote">"Declare variables, not war"</p>
+        </div>
+    </div>
+
+  <script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "40%";
+}
+function openAbout(){
+  document.getElementById("myAbout").style.width = "100%";
+}
+
+function fnalert(){
+alert("No services ,LOL");
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+function closeAbout(){
+  document.getElementById("myAbout").style.width = "0";
+   }
+</script>
+
+
+
+
+<script>
+var checkbox = document.querySelector('input[name=theme]');
+
+
+        checkbox.addEventListener('change', function() {
+            if(this.checked) {
+               // trans()
+                document.documentElement.setAttribute('data-theme', 'dark')
+localStorage.setItem('theme', 'dark');
+
+            } else {
+               // trans()
+                document.documentElement.setAttribute('data-theme', 'light')
+           localStorage.setItem('theme', 'light');
+            }
+        })
+</script>
+<script>
+var currentTheme= localStorage.getItem('theme');
+
+function setTheme() { document.documentElement.setAttribute('data-theme', currentTheme);
+}
+</script>
+<script>
+document.onload =  toggle();
+						function toggle(){
+if (currentTheme === 'dark') {
+        checkbox.checked = true;
+    }
+}
+
+</script>
+</body>
+</html>

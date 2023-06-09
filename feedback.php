@@ -1,6 +1,9 @@
 <?php
 
-$conn = mysqli_connect("fdb18.biz.nf" ,  "3399456_newdb" , "l5iRPu8vDuWLo" , "3399456_newdb" );
+// $conn = mysqli_connect("fdb18.biz.nf" ,  "3399456_newdb" , "l5iRPu8vDuWLo" , "3399456_newdb" );
+
+$conn = mysqli_connect("localhost" ,  "root" , "" , "feedback" );
+
 
 if($conn){
 ?><script>alert("connected to the Database.");</script><?php

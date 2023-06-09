@@ -19,7 +19,11 @@ html{
 body{
     background: var(--bg);
     text-align: center;
-    text-size:7vw;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Handlee', cursive;
+
+    /* text-size:7; */
     }
 .sources a{
 text-decoration:none;
@@ -53,11 +57,17 @@ text-color:#00FF5B;
     padding: 11px 11px 11px 11px;
     color:var(--text);
     border-radius: 10px;
-    font-size:5vw;
+    font-size:5;
     font-style: italic;
     box-shadow: 2px 5px 10px rgba(0,0,0,0.8);
    text-shadow:5px 5px 15px rgba(0,0,0,0.5);
 	margin-bottom:10px;
+    /* width: 200px; */
+    width: 50%;
+
+    margin: auto;
+    
+
 }
     
 .eleminfo{
@@ -65,28 +75,34 @@ text-color:#00FF5B;
     margin: 1% 1% 1% 1%;
     padding: 11px 11px 11px 11px;
     border-radius: 10px;
-    font-size:5vw;
+    font-size:5;
     color:var(--text);
 	box-shadow: 2px 5px 10px rgba(0,0,0,0.8);
 	text-shadow:5px 5px 15px rgba(0,0,0,0.5);
 	margin-bottom:10px;
+    /* margin-top: 100px; */
+    width: 50%;
+
+    margin: auto;
 }
 .images{
     background: var(--panel-bg);
     margin: 1% 1% 1% 1%;
     padding: 11px 11px 11px 11px;
     border-radius: 10px;
-    font-size:5vw;
+    font-size:5;
     color:var(--text);
 	box-shadow: 2px 5px 10px rgba(0,0,0,0.8);
 	text-shadow:5px 5px 15px rgba(0,0,0,0.5);
-    margin-bottom:10px
+    margin-bottom:10px;
+    width: 50%;
+    margin: auto;
     }
 .home{
     position:fixed;
     top:80%;
     left: 70%;
-    font-size: 8vw;
+    font-size: 8;
     background: var(--home);
     padding: 20px 20px 20px 20px;
     border: orange 5px solid;
@@ -105,8 +121,14 @@ text-color:#00FF5B;
 .social{
 margin-top : 10%;
 background: var(--panel-bg);
-box-shadow: 2px 5px 10px rgba(0,0,0,0.8)
+box-shadow: 2px 5px 10px rgba(0,0,0,0.8);
 border: 2px orange inset;
+width: 50%;
+box-shadow: 2px 5px 10px rgba(0,0,0,0.8);
+	text-shadow:5px 5px 15px rgba(0,0,0,0.5);
+    border-redius: 10px;
+
+    margin: auto;
 }
 .social h2{
 padding: 10px;

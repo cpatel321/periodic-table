@@ -15,22 +15,27 @@ html[data-theme='dark'] {
 
 body{
     font-family: 'Handlee', cursive;
-    font-size: 7vw;
+    font-size: 7;
     background-color: var(--bg);
     padding: 10px;
-    margin: 0;
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    
         }
 .section{
     background-color: var(--panel-bg);
-    padding: 15px;
+    padding: 15px 15px 15px 15px;
     border:grey 4px solid;
     margin-bottom: 10px;
     border-radius: 10px;
-    height: 100%;
+    /* height: 100vh; */
+    width: 300px;
 }
 form {
     text-align: center;
-    margin-top: 0;
+    margin: auto;
+    
 }
 h1{
 text-align:center;
@@ -40,6 +45,7 @@ color:var(--text);
     background-color: #3fb6b2;
     padding: 12px 45px;
     border-radius: 5px;
+    width: 200px;
     cursor: pointer;
     color: #ffffff;
     border: none;
@@ -55,28 +61,22 @@ textarea {
 }
 input, textarea {
     margin-bottom: 10px;
-    font-size: 7vw;
+    width: 200px;
+    font-size: 7;
     padding: 15px 10px 10px;
    
     background-color: #efefef;
     color: #787575;
    border-radius:10px;
-    width: 70%;
+    /* width: 70%; */
     outline: none;
-}
-.face{
-    transform: scale(0.9);
-    margin: 0 auto;
-    display: block;
-    margin-top: -25px;
-    margin-bottom: -25px;
 }
 .home{
     position:fixed;
     
     top:80%;
     left: 70%;
-    font-size: 8vw;
+    font-size: 8;
     background: var(--home);
     padding: 20px 20px 20px 20px;
     border: orange 5px solid;

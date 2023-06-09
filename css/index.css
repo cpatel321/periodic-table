@@ -1,6 +1,6 @@
 
 *{
-    padding : ;
+    /* padding : ; */
     margin : 1% 1% 1% 1%;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -12,7 +12,7 @@ html {
   --bg-panel: #d9d9d9;
   --color-headings: #0077FF;
   --color-text: #333333;
-  --bg-slider: rgba(166, 166, 166, 0.8);
+  --bg-slider: rgba(166, 166, 166, 0.933);
   --slider-text: #262626  ;
   --bg-about: #efefef;
 --url: url("../images/chem1.jpg");
@@ -40,7 +40,7 @@ background-color: var(--bg);
     margin-right: 1%;
     margin-top: 1%;
     margin-bottom:1%;
-    font-size: 5vw;
+    font-size: 35px;
 
 
 }
@@ -59,12 +59,7 @@ background-color: var(--bg);
     width:extend-to-zoom;
     
 }
-@ms-viewport{
-    
-    zoom: 1.0;
-    width:extend-to-zoom;
-    
-}
+
 
    #header {
     min-height:10px ;
@@ -72,11 +67,23 @@ background-color: var(--bg);
     border-radius: 4px;
     color:var(--color-text);
     text-align: center ;
+
    
 }
+#header span {
+  /* min-height:10px ; */
+  height: 40.2px;
+  /* width: 50px; */
+  /* background-color:var(--bg-panel); */
+  border-radius: 4px;
+  color:var(--color-text);
+  /* text-align: center ; */
+  
+ 
+}
 #table1{
-    width: ;
-    height: ; 
+    /* width: ;
+    height: ;  */
     text-align: center;
     overflow: scroll; 
     border: white 1px dashed ; 
@@ -84,7 +91,7 @@ background-color: var(--bg);
    background-image:var(--url); 
   -webkit-filter: var(--filter); 
           filter: var(--filter);
-    font-size: 10vw;
+    font-size: 10;
    position: relative;
     -webkit-animation: animate 16s ease-in-out infinite;
             animation: animate 16s ease-in-out infinite;
@@ -113,26 +120,31 @@ background-color: var(--bg);
     border: 1px;
 -webkit-filter: var(--filter);
         filter: var(--filter);
+        font-size: 39px;
 }
 .halogens{
     background-color: limegreen ;
     border:  1px;
+    font-size: 39px;
     
 }
 .metalloids{
     background-color: blueviolet;
     border:   1px;
+    font-size: 39px;
     
 }
 .noblegases{
     
     background-color: violet;
     border:1px;
+    font-size: 39px;
     
 }
 .posttransistionmetal{
   background-color:   deepskyblue;
     border: 1px;
+    font-size: 39px;
     
 }
 .alkalimetals{
@@ -140,12 +152,14 @@ background-color: var(--bg);
     border: 1px;
 -webkit-filter: var(--filter);
         filter: var(--filter);
+        font-size: 39px;
 }
 .alkaliearhmetals{
     background-color: aqua;
     border:1px;
 -webkit-filter: var(--filter);
         filter: var(--filter);
+        font-size: 39px;
     
 }
 
@@ -153,19 +167,21 @@ background-color: var(--bg);
 .transitionmetals{
     background-color: lightcoral;
     border:1px;
-    
+    font-size: 39px;
 }
 .lanthanides{
     background-color: chartreuse;
     border:1px;
 -webkit-filter: var(--filter);
         filter: var(--filter);
+        font-size: 39px;
 }
 .actinides{
  background-color: fuchsia;
     border: 1px;
 -webkit-filter: var(--filter);
         filter: var(--filter);
+        font-size: 39px;
     
 }
     /* elements details ends */
@@ -175,8 +191,8 @@ background-color: var(--bg);
 text-align: center;
     overflow: scroll; 
     border: white 1px dashed ; 
-    border-radius: 10px;
-    font-size:4vw;
+    /* border-radius: 50px; */
+    font-size:  30px;
 -webkit-filter: var(--filter);
         filter: var(--filter);
 }
@@ -185,9 +201,9 @@ text-align: center;
 /*group details ends*/
 table{
    display: inline-block;
-    margin: ;
-		min-height: %;
-    min-width:100%;
+    /* margin: ; */
+		min-height: 100%;
+    /* min-width:100%; */
     -webkit-transform: scale(0.);
         -ms-transform: scale(0.);
             transform: scale(0.);
@@ -200,7 +216,12 @@ table{
 
 /*popup start here*/
 #details{
-   font-size: 3vw;
+   font-size: 50%;
+    
+    /* overflow: scroll;  */
+    /* border: white 1px dashed ;  */
+    /* border-radius: 10px; */
+    /* background-image:var(--url); */
 }
 a{
     text-decoration: none;
@@ -209,12 +230,12 @@ a{
 #X-button{
     text-align: end;
     margin: -10px 0px -10px 0px;
-    font-size: 5vw;
+    /* font-size: 5; */
     
 }
 #X {
-    color:red;
-    background-color: black;
+    color:black;
+    /* background-color: black; */
     padding: 05px 10px 05px 10px;
    
 }
@@ -226,7 +247,9 @@ h3{
   position: fixed;
   background-color:var(--bg-panel);
   color:var(--color-text);
-  width:70%;
+  width:40%;
+  height: 50%;
+  text-align: center;
   max-width: 1000px;
   left: 50%;
   padding: 20px;
@@ -270,7 +293,7 @@ border: grey solid;
 #popup-close {}
 
 .elemimg{
-max-width:70%;
+max-width:200px;
 display:block;
 margin:auto;
 border-radius:20px;
@@ -285,7 +308,7 @@ border-radius:20px;
   position: fixed;
   z-index: 1;
   top: 0;
-font-size:5vw;
+  font-size:35px  ;
   right : 0;
   background-color: var(--bg-slider);
   overflow-x: hidden;
@@ -340,7 +363,7 @@ font-size:5vw;
 
   
     font-family: 'Handlee', cursive;
-    font-size: 7vw;
+    font-size: 40px;
   
 
 }
@@ -376,8 +399,8 @@ p {
 }
 
 #profile p {
-    font-size: 8vw;
-    color: darkviolet;
+    font-size: 50px;
+    color: rgb(218, 218, 218);
     padding-top: 10px;
     margin: 0;
     font-weight: bold;
@@ -403,21 +426,21 @@ p {
   .sidenav a {font-size: 18px;}
 }
 			span{
-  	  	font-size:5vw;
+  	  	font-size:30px;
  		   float: right;
 		    cursor:pointer;
  		   margin-top: -2px;
 		    margin-right: 15px;
 		    padding: 0px 0px 0px 0px;
-			color:white;
+			color:rgb(255, 255, 255);
 			}
 
 
 .toggletheme {
   
-  text-decoration: none;
-  font-size: 5vw;
-  text-color:var(--slider-text) ;
+  /* text-decoration: none; */
+  font-size: 35px;
+  
   
   -webkit-transition: 0.3s;
   
@@ -427,20 +450,23 @@ p {
    
 }
 .textalign{
--webkit-box-flex:5;
-    -ms-flex:5;
-        flex:5;
+/* -webkit-box-flex:5; */
+    /* -ms-flex:5; */
+        /* flex:5; */
+        padding-left: 22px;
+        color:var(--slider-text) ;
 }
 .buttonalign{
--webkit-box-flex:1;
-    -ms-flex:1;
-        flex:1;
-
-}
+  /* -webkit-box-flex:1; */
+      /* -ms-flex:1; */
+          /* flex:1; */
+          /* size: 10px; */
+  margin-top: -48px;
+  }
 .toggletheme{
-display:-webkit-box;
-display:-ms-flexbox;
-display:flex;
+/* display:-webkit-box; */
+/* display:-ms-flexbox; */
+/* display:flex; */
 
 padding: 8px 8px 8px px;
 -webkit-box-align:center;
@@ -456,8 +482,8 @@ padding: 8px 8px 8px px;
 }
 input[type="checkbox"]{
     position: relative;
-    height: 5vw;
-    width: 10vw;
+    height: 25px;
+    width: 40px;
     -moz-appearance:none;
          appearance:none;
     -webkit-appearance:none;
@@ -480,8 +506,8 @@ input[type="checkbox"]:before{
     top:0;
     left:0;
     background: #ffffff;
-    height: 5vw;
-    width:5vw;
+    height: 25px;
+    width:25px;
     border-radius: 50%;
     -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.2);
             box-shadow: 0 2px 5px rgba(0,0,0,0.2);
@@ -494,6 +520,6 @@ input[type="checkbox"]:before{
     
 }
 input:checked[type="checkbox"]:before{
-    left:5vw;
+    left:15px;
 }
 

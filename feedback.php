@@ -6,7 +6,7 @@ $conn = mysqli_connect("fdb18.biz.nf" ,  "3399456_newdb" , "l5iRPu8vDuWLo" , "33
 
 
 if($conn){
-
+	?><script></script><?php
 }
 else{
 ?><script>alert("Error connecting to database, Please try again later.");</script><?php

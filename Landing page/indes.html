@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <meta http-equiv="refresh" content="7; url='https://www.w3docs.com'" /> -->
+    <script>
+        //#Source https://bit.ly/2neWfJ2 
+const detectDeviceType = () =>
+  /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+    ? 'mobile'
+    : 'desktop';
+var type=detectDeviceType(); // "Mobile" or "Desktop"
+window.location.replace(`http://periodictable.c1.biz/${type}`);
+
+    </script>
+</head>
+  <body>
+    <p>You will be redirected to w3docs.com soon! </p>
+  </body>
+</html>
+
